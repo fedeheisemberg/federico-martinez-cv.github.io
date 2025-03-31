@@ -13,7 +13,7 @@ Estudiante avanzado de la **Licenciatura en Administración de Empresas** en la 
 ## Experiencia
 
 ### Analista - Cofundador  
-**Optima - Consulting & Management** | Abril 2023 - Actualidad  
+**Optima - Consulting & Management** | Abril 2023 - Enero 2023 
 - Desarrollo e implementación de estrategias en mercados de capitales.  
 - Optimización de eficiencia operativa y crecimiento del negocio.  
 - Uso avanzado de herramientas analíticas: **Python**, **Tableau/Power BI**, **Excel**.  
