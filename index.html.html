@@ -1,0 +1,685 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Federico Martínez - Currículum Vitae</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+	margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-default_background {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.highlight-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-default_background {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray_background {
+	background: rgba(248, 248, 247, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(248, 243, 252, 1);
+}
+.block-color-pink_background {
+	background: rgba(252, 241, 246, 1);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-uiBlue { background-color: undefined; }
+.select-value-color-pink { background-color: rgba(225, 136, 179, 0.27); }
+.select-value-color-purple { background-color: rgba(168, 129, 197, 0.27); }
+.select-value-color-green { background-color: rgba(123, 183, 129, 0.27); }
+.select-value-color-gray { background-color: rgba(84, 72, 49, 0.15); }
+.select-value-color-transparentGray { background-color: undefined; }
+.select-value-color-translucentGray { background-color: undefined; }
+.select-value-color-orange { background-color: rgba(224, 124, 57, 0.27); }
+.select-value-color-brown { background-color: rgba(210, 162, 141, 0.35); }
+.select-value-color-red { background-color: rgba(244, 171, 159, 0.4); }
+.select-value-color-yellow { background-color: rgba(236, 191, 66, 0.39); }
+.select-value-color-blue { background-color: rgba(93, 165, 206, 0.27); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="7d4b5a0c-13dd-48d5-80b5-32909111fb85" class="page sans"><header><div class="page-header-icon undefined"><span class="icon">💼</span></div><h1 class="page-title">Federico Martínez - <strong>Currículum Vitae</strong></h1><p class="page-description"></p></header><div class="page-body"><hr id="d8e9c96e-2c50-4ba5-bc76-bdc3308b8261"/><p id="1b578e6e-dadf-809d-b7f9-ef012d417bcc" class=""><a href="https://www.linkedin.com/in/federicoluismartinez/">LinkedIn</a> | <a href="https://fede-martinez-portfolio.vercel.app/">Sitio Web</a> | <a href="https://github.com/fedeheisemberg">GitHub</a> | <a href="https://www.youtube.com/@FedeMartinezQuantFinance">Canal de YouTube</a></p><p id="1b578e6e-dadf-80ce-adc6-c9ce9a2ea8eb" class="">📞 +549 2645802870 | ✉️ <a href="mailto:fedemarti0107@gmail.com">fedemarti0107@gmail.com</a> | Progreso 449 Este, Rawson, San Juan, Arg.</p><hr id="1b578e6e-dadf-8002-a3ae-cf65e98997be"/><h3 id="1b578e6e-dadf-8091-a91a-c59ed6fc9d27" class=""><strong>RESUMEN</strong></h3><p id="1b578e6e-dadf-807f-ad61-f5b6d219ee94" class="">Estudiante avanzado de la Licenciatura en Administración de Empresas en la Universidad de Congreso, con experiencia en emprendimientos y gestión. Especializado en análisis de datos, automatización y mercados de capitales. Habilidad destacada en gestión de bases de datos, análisis y comunicación en inglés. Disponibilidad full-time.</p><hr id="1b578e6e-dadf-8022-8d1f-ded07193dfbd"/><h3 id="1b578e6e-dadf-80d2-bb55-c45f5ba30019" class=""><strong>EXPERIENCIA</strong></h3><h3 id="1b578e6e-dadf-8030-a0b0-c228eec26fc0" class=""><strong>Analista - Cofundador</strong></h3><p id="1b578e6e-dadf-8038-b5d1-f158def40f2a" class=""><strong>Optima - Consulting &amp; Management</strong> | Abril 2023 - Actualidad</p><ul id="1b578e6e-dadf-80e4-bf28-ced8f7eab28f" class="bulleted-list"><li style="list-style-type:disc">Desarrollo e implementación de estrategias en mercados de capitales.</li></ul><ul id="1b578e6e-dadf-8056-a7ae-e748795e0e07" class="bulleted-list"><li style="list-style-type:disc">Optimización de eficiencia operativa y crecimiento del negocio.</li></ul><ul id="1b578e6e-dadf-80a2-bdca-f4311c37178c" class="bulleted-list"><li style="list-style-type:disc">Uso avanzado de herramientas analíticas como Python, Tableau/Power BI y Excel.</li></ul><ul id="1b578e6e-dadf-8082-94ab-fa6016e3f3da" class="bulleted-list"><li style="list-style-type:disc">Gestión empresarial con Google Suite y administración de proyectos con Trello.</li></ul><h3 id="1b578e6e-dadf-80e9-a16f-c9249a8bd62a" class=""><strong>Administrativo</strong></h3><p id="1b578e6e-dadf-80d9-83b8-d9f2a0986fd2" class=""><strong>Agua Santa Clara</strong> | Enero 2023 - Abril 2023</p><ul id="1b578e6e-dadf-8033-b5e1-c9aa43174821" class="bulleted-list"><li style="list-style-type:disc">Gestión administrativa y optimización de procesos internos.</li></ul><ul id="1b578e6e-dadf-805b-82a1-dda89edec638" class="bulleted-list"><li style="list-style-type:disc">Facturación, trámites ante AFIP y manejo de relaciones con clientes.</li></ul><h3 id="1b578e6e-dadf-8013-9c96-dfe324745489" class=""><strong>Operador Bursátil</strong></h3><p id="1b578e6e-dadf-8086-a456-cbb2ddea0e09" class=""><strong>Autónomo</strong> | Abril 2020 - Actualidad</p><ul id="1b578e6e-dadf-80aa-8ff3-c87bddf2aabd" class="bulleted-list"><li style="list-style-type:disc">Operaciones bursátiles en plataformas extranjeras (Interactive Brokers) y locales (Matriz).</li></ul><ul id="1b578e6e-dadf-80d1-910e-c2d51b3a825e" class="bulleted-list"><li style="list-style-type:disc">Análisis Técnico y Fundamental para la inversión en acciones, bonos y derivados.</li></ul><h3 id="1b578e6e-dadf-802d-bc9a-f032041fa176" class=""><strong>Encargado de Barra</strong></h3><p id="1b578e6e-dadf-80ce-88bc-f7ccfeac2af9" class=""><strong>Hotel Sonnenalp, Vail, Colorado</strong> | Temporada de esquí (Diciembre 2019 - Abril 2020)</p><ul id="1b578e6e-dadf-80e5-89c1-f9ffb8f2b4e2" class="bulleted-list"><li style="list-style-type:disc">Coordinación de operaciones en la barra, optimización de la eficiencia y mejora de la experiencia del cliente en temporada alta.</li></ul><hr id="1b578e6e-dadf-8088-936e-fe8827484e6a"/><h3 id="1b578e6e-dadf-80cc-8a46-e671199344c9" class=""><strong>EDUCACIÓN</strong></h3><h3 id="1b578e6e-dadf-80be-a70c-f374d54c7ef1" class=""><strong>Licenciatura en Administración de Empresas</strong></h3><p id="1b578e6e-dadf-8011-bacb-f795e72f7a88" class=""><strong>Universidad de Congreso</strong> | Marzo 2023 - En curso</p><ul id="1b578e6e-dadf-8050-9f86-cfd3657f54d1" class="bulleted-list"><li style="list-style-type:disc">Enfoque en finanzas, análisis de datos y mercados financieros.</li></ul><ul id="1b578e6e-dadf-80fe-9012-fd6be435d1ff" class="bulleted-list"><li style="list-style-type:disc">Participación en proyectos y talleres del CPCE San Juan, aplicando conocimientos teóricos en contextos reales.</li></ul><hr id="1b578e6e-dadf-805a-b291-e35fb3c0129c"/><h3 id="1b578e6e-dadf-80f5-9472-dd675bf9a7ff" class=""><strong>CERTIFICACIONES</strong></h3><ul id="1b578e6e-dadf-80dd-8b18-d081f24b5c41" class="bulleted-list"><li style="list-style-type:disc"><strong>Associate Data Analyst</strong>, DataCamp</li></ul><ul id="1b578e6e-dadf-80d1-9a67-cfd76544082b" class="bulleted-list"><li style="list-style-type:disc"><strong>Google Advanced Data Analytics</strong>, Coursera<ul id="1b578e6e-dadf-8078-a5fe-dc9383abcf6f" class="bulleted-list"><li style="list-style-type:circle">Python, estadística descriptiva e inferencial, visualización de datos con Tableau y modelos de aprendizaje automático.</li></ul></li></ul><ul id="1b578e6e-dadf-8078-9ca6-c70c9533533f" class="bulleted-list"><li style="list-style-type:disc"><strong>Data Analytics Essentials 2024</strong>, Cisco Academy<ul id="1b578e6e-dadf-8039-aead-ca13e1132d64" class="bulleted-list"><li style="list-style-type:circle">Análisis de datos aplicado a la toma de decisiones empresariales.</li></ul></li></ul><ul id="1b578e6e-dadf-805d-ac99-c758c8bb0b94" class="bulleted-list"><li style="list-style-type:disc"><strong>Python Essentials 1 2024</strong>, Cisco Academy<ul id="1b578e6e-dadf-8028-a6e4-e5dbf96f766c" class="bulleted-list"><li style="list-style-type:circle">Fundamentos de programación en Python.</li></ul></li></ul><hr id="1b578e6e-dadf-8002-b224-cecf4898fc22"/><h3 id="1b578e6e-dadf-80d4-a5ca-c96e8cdf17b7" class=""><strong>HERRAMIENTAS TÉCNICAS</strong></h3><ul id="1b578e6e-dadf-805d-b633-f3046fb435b9" class="bulleted-list"><li style="list-style-type:disc"><strong>Análisis de Datos</strong>: Python (pandas, NumPy, matplotlib, seaborn, scikit-learn), SQL, Anaconda, Git/GitHub.</li></ul><ul id="1b578e6e-dadf-802a-8766-f85fab4e9845" class="bulleted-list"><li style="list-style-type:disc"><strong>Visualización de Datos</strong>: Tableau, Power BI.</li></ul><ul id="1b578e6e-dadf-80b6-880c-de1c0b70eb64" class="bulleted-list"><li style="list-style-type:disc"><strong>Gestión de Datos</strong>: SQLite, Excel (tablas dinámicas, macros, VBA), DAX (Power BI), MySQL.</li></ul><ul id="1b578e6e-dadf-802d-a851-eafc84260389" class="bulleted-list"><li style="list-style-type:disc"><strong>Web Scraping</strong>: Python (BeautifulSoup, Scrapy, Selenium).</li></ul><ul id="1b578e6e-dadf-803c-8b41-d943cfd4e388" class="bulleted-list"><li style="list-style-type:disc"><strong>Gestión Empresarial</strong>: Google Suite, Trello, Notion.</li></ul><hr id="1b578e6e-dadf-800a-ab7d-dfaf7d6d9eb1"/><h3 id="1b578e6e-dadf-8036-bc58-f8aea4658070" class=""><strong>PROYECTOS DESTACADOS</strong></h3><ul id="1b578e6e-dadf-8024-9268-ccfcba68b785" class="bulleted-list"><li style="list-style-type:disc"><strong>Tablero para visualización de datos de opciones financieras</strong><ul id="1b578e6e-dadf-8081-b1f2-c7fa8736dba4" class="bulleted-list"><li style="list-style-type:circle">Creado con Python y sus librerías de análisis de datos.</li></ul><ul id="1b578e6e-dadf-804d-a191-f5d096bbdcbc" class="bulleted-list"><li style="list-style-type:circle"><a href="https://optimaoptionspro.streamlit.app/">Ver proyecto</a></li></ul></li></ul><ul id="1b578e6e-dadf-8020-9a35-ee620fc9bee5" class="bulleted-list"><li style="list-style-type:disc"><strong>Modelo de Aprendizaje Automático para predicción de rotación de empleados</strong><ul id="1b578e6e-dadf-808c-90a6-eb5a24b0d480" class="bulleted-list"><li style="list-style-type:circle">Basado en un dataset de aproximadamente 5,000 registros.</li></ul><ul id="1b578e6e-dadf-8023-b9d4-f8d639c8597c" class="bulleted-list"><li style="list-style-type:circle"><a href="https://public.tableau.com/app/profile/federico.martinez3300/viz/DashboardML-HR/Dashboard1">Ver proyecto</a></li></ul></li></ul><ul id="1b578e6e-dadf-80d9-98ec-c9effef6de26" class="bulleted-list"><li style="list-style-type:disc"><strong>Tablero de ventas en Tableau</strong><ul id="1b578e6e-dadf-800e-ad9c-cf40fd1ce2d5" class="bulleted-list"><li style="list-style-type:circle">Análisis de datos de ventas en un entorno empresarial.</li></ul><ul id="1b578e6e-dadf-802e-be7c-e70c8ac6eb77" class="bulleted-list"><li style="list-style-type:circle"><a href="https://public.tableau.com/app/profile/federico.martinez3300/viz/DashboarddeVentas_17164923913100/Dashboard1">Ver proyecto</a></li></ul></li></ul><ul id="1b578e6e-dadf-8076-b6f3-e07f513d63fe" class="bulleted-list"><li style="list-style-type:disc"><strong>Extracción, transformación y carga hacia Google Sheets</strong><ul id="1b578e6e-dadf-80e3-bc8e-fdf1052454c7" class="bulleted-list"><li style="list-style-type:circle">Extracción de datos financieros con la librería Pyhomebroker en Python y carga automatizada en Google Sheets. Desplegado en Google Cloud Platform.</li></ul><ul id="1b578e6e-dadf-80b2-bfe8-fc2afb3ff993" class="bulleted-list"><li style="list-style-type:circle"><a href="https://github.com/fedeheisemberg/Proyecto---Options-Data-with-Google-Sheets/blob/main/main_HM.py">Ver proyecto</a></li></ul></li></ul><ul id="1b578e6e-dadf-80a0-9b59-d958e0a1309a" class="bulleted-list"><li style="list-style-type:disc"><strong>Desarrollo de sitio web personal</strong><ul id="1b578e6e-dadf-8009-b4ee-db08c187dfab" class="bulleted-list"><li style="list-style-type:circle">Creado con tecnologías de desarrollo web moderno (React, TypeScript, Next.js, HTML, CSS).</li></ul><ul id="1b578e6e-dadf-80b2-a425-dc2fc52d44a4" class="bulleted-list"><li style="list-style-type:circle"><a href="https://fede-martinez-portfolio.vercel.app/">Ver proyecto</a></li></ul></li></ul><hr id="1b578e6e-dadf-8032-b66e-f7c0230e70b1"/><h3 id="1b578e6e-dadf-8049-964f-fedb049a401e" class=""><strong>HABILIDADES</strong></h3><ul id="1b578e6e-dadf-808b-8cb5-c32678d83fac" class="bulleted-list"><li style="list-style-type:disc">Comunicación (inglés avanzado, certificado C2 por EFSET).</li></ul><ul id="1b578e6e-dadf-8063-bb08-d857f3f7af2e" class="bulleted-list"><li style="list-style-type:disc">Trabajo en equipo y liderazgo.</li></ul><ul id="1b578e6e-dadf-8019-8e74-ec1045c6f4cb" class="bulleted-list"><li style="list-style-type:disc">Resolución de problemas y pensamiento crítico.</li></ul><ul id="1b578e6e-dadf-80e6-854a-cef8e348c936" class="bulleted-list"><li style="list-style-type:disc">Creatividad e innovación. Adaptabilidad y gestión del tiempo.</li></ul><hr id="1b578e6e-dadf-80fd-8cf7-d7cadd1e00dd"/><h3 id="1b578e6e-dadf-80a5-b3c4-d6503793fdfc" class=""><strong>INTERESES PROFESIONALES</strong></h3><ul id="1b578e6e-dadf-80cb-acdf-ccdc9ac1fba2" class="bulleted-list"><li style="list-style-type:disc">Aplicación de tecnología, innovación y análisis de datos para resolver problemas empresariales.</li></ul><ul id="1b578e6e-dadf-80d2-a761-dec9c03f2ef5" class="bulleted-list"><li style="list-style-type:disc">Finanzas cuantitativas y mercados financieros.</li></ul><ul id="1b578e6e-dadf-80c4-a103-c4a0b9fc5cab" class="bulleted-list"><li style="list-style-type:disc">Educación y divulgación financiera, con un canal de YouTube dedicado al análisis de datos aplicado a los mercados de capitales.</li></ul><hr id="99a561cf-367f-4802-bbf9-332fe47be5a4"/><figure id="b78dbba3-c483-4cf5-8b89-b81ed7dcc80a" class="link-to-page"><a href="https://www.notion.so/Federico-Mart-nez-b78dbba3c4834cf58b89b81ed7dcc80a?pvs=21">Federico Martínez</a></figure><p id="1ba78e6e-dadf-8062-9b2e-e5ff9fda794f" class="">
+</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
