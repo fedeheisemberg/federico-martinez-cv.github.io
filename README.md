@@ -1,88 +1,107 @@
 # Federico Martínez - Perfil Profesional
 
-**LinkedIn** | **Sitio Web** | **GitHub** | **Canal de YouTube**  
-📞 +549 2645802870 | ✉️ [fedemarti0107@gmail.com](mailto:fedemarti0107@gmail.com) | Progreso 449 Este, Rawson, San Juan, Argentina
+# **Federico Martínez**  
+📍 Progreso 449 Este, Rawson, San Juan, Argentina  
+📞 +549 2645802870 | ✉️ [fedemarti0107@gmail.com](mailto:fedemarti0107@gmail.com)  
+[LinkedIn](https://www.linkedin.com/in/federicoluismartinez/) | [Portfolio](https://fede-martinez-portfolio.vercel.app/) | [GitHub](https://github.com/fedeheisemberg) | [YouTube](https://www.youtube.com/@FedeMartinezQuantFinance)
 
 ---
 
-## Resumen
-Estudiante avanzado de la **Licenciatura en Administración de Empresas** en la Universidad de Congreso. Especializado en **análisis de datos**, **automatización** y **mercados de capitales**. Experiencia en emprendimientos y gestión, con habilidades destacadas en gestión de bases de datos, análisis y comunicación en inglés (C2). Disponibilidad full-time.
+### **RESUMEN PROFESIONAL**  
+Estudiante avanzado de **Administración de Empresas** con enfoque en **Business Intelligence, análisis de datos y automatización de procesos**. Experiencia desarrollando soluciones de datos aplicadas a la toma de decisiones. Capacidad demostrada para **resolver problemas de negocio usando Python, SQL y Tableau**. Interés en roles que conecten negocio y tecnología. Disponible **full-time**.
 
 ---
 
-## Experiencia
+### **EXPERIENCIA RELEVANTE**  
 
-### Analista - Cofundador  
-**Optima - Consulting & Management** | Abril 2023 - Enero 2023 
-- Desarrollo e implementación de estrategias en mercados de capitales.  
-- Optimización de eficiencia operativa y crecimiento del negocio.  
-- Uso avanzado de herramientas analíticas: **Python**, **Tableau/Power BI**, **Excel**.  
-- Gestión empresarial con **Google Suite** y administración de proyectos con **Trello**.
+#### **Analista y Cofundador**  
+**Optima - Consulting & Management LLC** | 🗓️ Abr 2023 - Ene 2025  
+- 📊 Diseño de dashboards financieros y de negocio, reduciendo el tiempo de análisis en un 50%.  
+- 🤖 Automatización de reportes con **Python**, **Google Sheets** y **GCP**, reduciendo tareas repetitivas en un 40%.  
+- 📈 Liderazgo en estrategias de datos para decisiones financieras.  
+- **Tecnologías:** Python, Tableau, Power BI, Google Suite, Trello.  
 
-### Administrativo  
-**Agua Santa Clara** | Enero 2023 - Abril 2023  
-- Gestión administrativa y optimización de procesos internos.  
-- Facturación, trámites ante AFIP y manejo de relaciones con clientes.
-
-###```markdown
-### Operador Bursátil  
-**Autónomo** | Abril 2020 - Actualidad  
-- Operaciones bursátiles en plataformas extranjeras (**Interactive Brokers**) y locales (**Matriz**).  
-- Análisis Técnico y Fundamental para inversión en acciones, bonos y derivados.
-
-### Encargado de Barra  
-**Hotel Sonnenalp, Vail, Colorado** | Temporada de esquí (Diciembre 2019 - Abril 2020)  
-- Coordinación de operaciones en la barra y mejora de la experiencia del cliente en temporada alta.
+#### **Administrativo - Optimización de Procesos**  
+**Agua Santa Clara** | 🗓️ Ene 2023 - Abr 2023  
+- 📝 Automatización de tareas de facturación y control contable en **Excel** y **Google Sheets** (30% más eficiente).  
+- 📑 Gestión documental y atención a clientes corporativos.  
 
 ---
 
-## Educación
+### **EDUCACIÓN**  
+
 **Licenciatura en Administración de Empresas**  
-**Universidad de Congreso** | Marzo 2023 - En curso  
-- Enfoque en finanzas, análisis de datos y mercados financieros.  
-- Proyectos y talleres con el **CPCE San Juan**, aplicando conocimientos en contextos reales.
+*Universidad de Congreso* | 📅 Mar 2023 - Actualidad (60.98% completado)  
+- Enfoque en análisis de datos y tecnología aplicada a la gestión.
 
 ---
 
-## Certificaciones
-- **Associate Data Analyst** - DataCamp  
-- **Google Advanced Data Analytics** - Coursera  
-  - Python, estadística descriptiva/inferencial, visualización con Tableau, modelos de aprendizaje automático.  
-- **Data Analytics Essentials 2024** - Cisco Academy  
-- **Python Essentials 1 2024** - Cisco Academy  
+### **CERTIFICACIONES DESTACADAS**  
+- 🎓 **Google Advanced Data Analytics** – Coursera  
+- 🎓 **Associate Data Analyst** – DataCamp  
+- 🎓 **Data Analytics Essentials 2024** – Cisco Academy  
+Formación en **Python**, **estadística**, **visualización**, **SQL**, **machine learning** y toma de decisiones basada en datos.
 
 ---
 
-## Herramientas Técnicas
-- **Análisis de Datos**: Python (pandas, NumPy, matplotlib, seaborn, scikit-learn), SQL, Anaconda, Git/GitHub.  
-- **Visualización de Datos**: Tableau, Power BI.  
-- **Gestión de Datos**: SQLite, Excel (tablas dinámicas, macros, VBA), DAX (Power BI), MySQL.  
-- **Web Scraping**: Python (BeautifulSoup, Scrapy, Selenium).  
-- **Gestión Empresarial**: Google Suite, Trello, Notion.
+### **PROYECTOS DESTACADOS**  
+
+- **Optimizador de Portfolios con Python y Streamlit**  
+  Simula carteras óptimas usando **Monte Carlo** y **Markowitz**.  
+  🔗 [App](https://portfoliopt.streamlit.app/)  
+
+- **Modelo de ML para Riesgo Crediticio**  
+  Predicción de morosidad con **árboles de decisión** y **Random Forest**.  
+  🔗 [App](https://creditscoremodel.streamlit.app/) | [Código](https://github.com/fedeheisemberg/Proyecto---Modelado-de-Riesgo-Crediticio)  
+
+- **Sistema de Valuación de Inventarios**  
+  App contable interactiva para métodos **FIFO**, **LIFO** y **Promedio**.  
+  🔗 [App](https://valuaciondeinv.streamlit.app/)  
+
+- **Predicción de Rotación de Empleados**  
+  Modelo de churn y dashboard en **Tableau** para RRHH.  
+  🔗 [Proyecto](https://public.tableau.com/app/profile/federico.martinez3300/viz/DashboardML-HR/Dashboard1)  
+
+- **ETL Automatizado con Google Sheets API**  
+  Pipeline automatizado de datos bursátiles desde **Pyhomebroker** a **Google Sheets**.  
+  🔗 [Código](https://github.com/fedeheisemberg/Proyecto---Options-Data-with-Google-Sheets)  
+
+- **Dashboard de Ventas en Tableau**  
+  KPIs comerciales y análisis de desempeño.  
+  🔗 [Proyecto](https://public.tableau.com/app/profile/federico.martinez3300/viz/DashboarddeVentas_17164923913100/Dashboard1)  
+
+- **Análisis de Datos de Ciberseguridad con ML**  
+  Detección de intrusiones con **Logística**, **Random Forest** y **XGBoost**.  
+  🔗 [Código](https://github.com/fedeheisemberg/Proyecto-Google-Course---Cybersec-Data-Analysis-and-ML/tree/main/ML%20for%20Intrusion%20Detection) | [Video](https://www.youtube.com/watch?v=BdbzLm75Afs)  
+
+- **Sitio Web Personal (Portfolio)**  
+  Presentación profesional con contacto y proyectos.  
+  🔗 [Sitio](https://fede-martinez-portfolio.vercel.app/)
 
 ---
 
-## Proyectos Destacados
-1. **[Tablero para visualización de datos de opciones financieras](URL)**  
-   - Creado con Python y librerías de análisis de datos.  
-2. **[Modelo de Aprendizaje Automático para predicción de rotación de empleados](URL)**  
-   - Basado en un dataset de ~5,000 registros.  
-3. **[Tablero de ventas en Tableau](URL)**  
-   - Análisis de datos de ventas empresariales.  
-4. **[Extracción, transformación y carga hacia Google Sheets](URL)**  
-   - Datos financieros con Pyhomebroker y despliegue en Google Cloud Platform.  
-5. **[Desarrollo de sitio web personal](URL)**  
-   - Tecnologías: React, TypeScript, Next.js, HTML, CSS.
+### **HABILIDADES TÉCNICAS**  
+- **Lenguajes:** Python, SQL, JavaScript (básico), TypeScript  
+- **Visualización:** Tableau, Power BI  
+- **Gestión de datos:** Excel (avanzado), SQLite, MySQL, Google Sheets API  
+- **Cloud y automatización:** GCP, Git, Trello, Notion  
+- **Aprendizaje actual:** Apache Airflow, AWS
 
 ---
 
-## Habilidades
-- Comunicación (inglés avanzado - C2 por EFSET).  
-- Trabajo en equipo y liderazgo.  
-- Resolución de problemas y pensamiento crítico.  
-- Creatividad, innovación, adaptabilidad y gestión del tiempo.
+### **IDIOMAS**  
+- **Inglés avanzado (C2)** – [Certificado EFSET](https://cert.efset.org/es/tH7DCc)  
 
 ---
+
+### **INTERESES PROFESIONALES**  
+- Ciencia de datos aplicada a negocios  
+- Business Intelligence y automatización  
+- Finanzas cuantitativas  
+- Divulgación educativa (ver [YouTube](https://www.youtube.com/@FedeMartinezQuantFinance))
+
+---
+
 
 ## Intereses Profesionales
 - Aplicación de tecnología, innovación y análisis de datos en problemas empresariales.  
